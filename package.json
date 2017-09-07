@@ -3,7 +3,6 @@
   "description": "A package using versioning for autotests",
   "author": "Andrii Prykhodko",
   "dependencies": {
-    "webdriver-manager": "10.2.6",
     "protractor" : "5.1.2"
     },
   "engine": "node >= 0.4.1"
