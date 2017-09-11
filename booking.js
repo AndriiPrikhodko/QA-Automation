@@ -22,7 +22,7 @@ describe('QA automation', function() {
     element.all(by.css('button.sb-searchbox__button')).first().click();
     browser.wait(until.presenceOf(element(by.id('hotellist_inner'))), 5000, 'Element hotellist_inner not is not visible');
     element.all(by.css('#hotellist_inner a.visited_link'))
-    .then(links => links.map(link => expect(link.getText()).toContain("New York")))//.then( text => console.log(text))))
+    .then(links => links.map(link => expect(link.getText()).toContain("New York")));
   });
 });
 
