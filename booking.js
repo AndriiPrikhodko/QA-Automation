@@ -25,7 +25,3 @@ describe('QA automation', function() {
     .then(links => links.map(link => expect(link.getText()).toContain("New York")));
   });
 });
-
-getInnerHTML = function(browser,webElement){
-   return browser.executeScript("return arguments[0].innerHTML;", webElement);
-}
